@@ -25,7 +25,7 @@ body{
 .container img{
     max-width: 100%;
     background-color: white;
-    border-radius: 100%;
+    border-radius: 20%;
 }
 
 ul,
@@ -45,12 +45,12 @@ li{
 
 .mon-header a{
     text-decoration: none;
-    color: white;
+    color: black;
     padding: 0.6em 1em;
 }
 
 .mon-header a:hover{
-    background-color: #a2daf5;
+    background-color: #3b80ff;
     border-radius: 2em;
 
 }
@@ -119,12 +119,31 @@ form .button button {
 }
 
 .main-section button:first-child {
-	background-color: purple;
+	background-color: #3b80ff;
     color: white;
 }
 
 .main-section button:hover {
-	box-shadow: -2px 2px 6px #4f4f4f8f;
+	box-shadow: -2px 2px 6px #4f4f4f;
+}
+
+.main-section-contact,
+.main-section-about {
+    min-height: 100vh;
+    margin: 2em;
+    text-align: center;
+}
+
+.main-section-contact p,
+.main-section-about p{
+    margin: 2em;
+    text-align: center;
+}
+
+.contact_container {
+    padding-top: 2em;
+    display: flex;
+    justify-content: space-around;
 }
 
 /*features*/
@@ -171,6 +190,7 @@ form .button button {
 	font-size: 1.2em;
 	padding: 1em;
 	margin-top: 2em;
+    margin-bottom: 0px;
 }
 
 .footer p,
